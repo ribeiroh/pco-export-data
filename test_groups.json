@@ -1,0 +1,69 @@
+{
+  "797223": {
+    "type": "Group",
+    "id": "797223",
+    "attributes": {
+      "archived": False,
+      "archived_at": None,
+      "contact_email": None,
+      "description": None,
+      "enrollment_open": False,
+      "enrollment_strategy": "closed",
+      "header_image": {
+        "thumbnail": "https: //groups-production.s3.amazonaws.com/uploads/group/header_image/797223/thumbnail_Comissao.jpeg",
+        "medium": "https://groups-production.s3.amazonaws.com/uploads/group/header_image/797223/medium_Comissao.jpeg",
+        "original": "https://groups-production.s3.amazonaws.com/uploads/group/header_image/797223/Comissao.jpeg"
+      },
+      "name": "Comissão - Board of Directors"
+    },
+    "relationships": {
+      "group_type": {
+        "data": None
+      },
+      "location": {
+        "data": {
+          "type": "Location",
+          "id": "475545"
+        }
+      }
+    },
+    "links": {
+      "self": "https://api.planningcenteronline.com/groups/v2/groups/797223"
+    }
+  },
+  "797233": {
+    "type": "Group",
+    "id": "797233",
+    "attributes": {
+      "archived": False,
+      "archived_at": None,
+      "contact_email": "pg-bondi@iasdsydney.org",
+      "description": None,
+      "enrollment_open": True,
+      "enrollment_strategy": "request_to_join",
+      "header_image": {
+        "thumbnail": "https://groups-production.s3.amazonaws.com/uploads/group/header_image/797233/thumbnail_PG_Bondi.jpeg",
+        "medium": "https://groups-production.s3.amazonaws.com/uploads/group/header_image/797233/medium_PG_Bondi.jpeg",
+        "original": "https://groups-production.s3.amazonaws.com/uploads/group/header_image/797233/PG_Bondi.jpeg"
+      },
+      "name": "PG Bondi"
+    },
+    "relationships": {
+      "group_type": {
+        "data": {
+          "type": "GroupType",
+          "id": "122857"
+        }
+      },
+      "location": {
+        "data": {
+          "type": "Location",
+          "id": "393668"
+        }
+      }
+    },
+    "links": {
+      "self": "https://api.planningcenteronline.com/groups/v2/groups/797233"
+    }
+  }
+}

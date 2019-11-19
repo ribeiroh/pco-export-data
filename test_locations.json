@@ -1,0 +1,64 @@
+{
+    "797223": {
+        "type": "Location",
+        "id": "475545",
+        "attributes": {
+            "display_preference": "exact",
+            "full_formatted_address": "126 Holden St\nAshfield, NSW 2131",
+            "latitude": "-33.896577",
+            "longitude": "151.125415",
+            "name": "IASD Sydney",
+            "radius": 0,
+            "strategy": "exact"
+        },
+        "links": {}
+    },
+    "797233": {
+        "type": "Location",
+        "id": "393668",
+        "attributes": {
+            "display_preference": "approximate",
+            "full_formatted_address": "Bondi Junction, NSW 2022",
+            "latitude": -33.89,
+            "longitude": 151.25,
+            "name": "Victor e Dani Novaes",
+            "radius": 1000,
+            "strategy": "approximate"
+        },
+        "links": {}
+    },
+    "797234": {
+        "type": "Location",
+        "id": "393668",
+        "attributes": {
+            "display_preference": "approximate",
+            "full_formatted_address": "Bondi Junction, NSW 2022",
+            "latitude": -33.89,
+            "longitude": 151.25,
+            "name": "Victor e Dani Novaes",
+            "radius": 1000,
+            "strategy": "approximate"
+        },
+        "links": {}
+    },
+    "797236": {
+        "type": "Location",
+        "id": "393684",
+        "attributes": {
+            "display_preference": "approximate",
+            "full_formatted_address": "Manly, NSW 2095",
+            "latitude": -33.79,
+            "longitude": 151.29,
+            "name": "Bruno e Suellen Arruda",
+            "radius": 1000,
+            "strategy": "approximate"
+        },
+        "links": {}
+    },
+    "797237": None,
+    "797238": None,
+    "797275": None,
+    "797276": None,
+    "798168": None,
+    "798225": None
+}

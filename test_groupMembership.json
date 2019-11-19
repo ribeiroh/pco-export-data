@@ -1,0 +1,838 @@
+{
+    "797223": [
+        {
+            "type": "Membership",
+            "id": "6939052",
+            "attributes": {
+                "account_center_identifier": 48061283,
+                "avatar_url": "https: //people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "andrevieira_s@yahoo.com.br",
+                "first_name": "Andre dos Santos",
+                "joined_at": "2019-07-08T04:12:18Z",
+                "last_name": "Vieira",
+                "phone_number": "+61 450 954 593",
+                "role": "leader"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3816551"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6939052"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6939054",
+            "attributes": {
+                "account_center_identifier": 48060566,
+                "avatar_url": "https://avatars.planningcenteronline.com/uploads/person/48060566-1549081516/avatar.1.png",
+                "color_identifier": 0,
+                "email_address": "heber@serafim.net",
+                "first_name": "Heber",
+                "joined_at": "2019-07-08T04:12:29Z",
+                "last_name": "Serafim",
+                "phone_number": "+61 414 921 073",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3816552"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6939054"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948819",
+            "attributes": {
+                "account_center_identifier": 48061727,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 0,
+                "email_address": "nickserrao@hotmail.com",
+                "first_name": "Nicole",
+                "joined_at": "2019-07-09T00:30:39Z",
+                "last_name": "Serrao",
+                "phone_number": "+61 439 453 844",
+                "role": "leader"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821700"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948819"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948827",
+            "attributes": {
+                "account_center_identifier": 48859618,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 0,
+                "email_address": "ana_gomes65@hotmail.com",
+                "first_name": "Ana",
+                "joined_at": "2019-07-09T00:31:29Z",
+                "last_name": "Gomes",
+                "phone_number": "+61 415 592 393",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821920"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948827"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948829",
+            "attributes": {
+                "account_center_identifier": 48061359,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 0,
+                "email_address": "annemeggye@gmail.com",
+                "first_name": "Anne",
+                "joined_at": "2019-07-09T00:31:39Z",
+                "last_name": "Moura",
+                "phone_number": "+61 434 769 576",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821874"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948829"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948831",
+            "attributes": {
+                "account_center_identifier": 48859606,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "benficista59@hotmail.com",
+                "first_name": "Antonio Inacio",
+                "joined_at": "2019-07-09T00:31:58Z",
+                "last_name": "Gomes",
+                "phone_number": "+61 414 272 155",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821924"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948831"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948836",
+            "attributes": {
+                "account_center_identifier": 48061745,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "bgbarbosa@live.com.au",
+                "first_name": "Billy",
+                "joined_at": "2019-07-09T00:32:13Z",
+                "last_name": "Barbosa",
+                "phone_number": "+61 419 446 794 ",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821927"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948836"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948838",
+            "attributes": {
+                "account_center_identifier": 48201386,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 0,
+                "email_address": "elcita.gondim@gmail.com",
+                "first_name": "Elcita",
+                "joined_at": "2019-07-09T00:32:22Z",
+                "last_name": "Godim",
+                "phone_number": "+61 420 290 218",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821824"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948838"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948840",
+            "attributes": {
+                "account_center_identifier": 48061922,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 0,
+                "email_address": "enybarbosa@icloud.com",
+                "first_name": "Eny",
+                "joined_at": "2019-07-09T00:32:35Z",
+                "last_name": "Barbosa",
+                "phone_number": "+61 426 570 144",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821931"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948840"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948842",
+            "attributes": {
+                "account_center_identifier": 48060186,
+                "avatar_url": "https://avatars.planningcenteronline.com/uploads/person/48060186-1549078077/avatar.2.png",
+                "color_identifier": 0,
+                "email_address": "fabianobittencourt@icloud.com",
+                "first_name": "Fabiano",
+                "joined_at": "2019-07-09T00:32:47Z",
+                "last_name": "Bittencourt",
+                "phone_number": "+61 405 460 894",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821708"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948842"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948871",
+            "attributes": {
+                "account_center_identifier": 48201255,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "joao48@hotmail.com",
+                "first_name": "João",
+                "joined_at": "2019-07-09T00:33:03Z",
+                "last_name": "Goncalves",
+                "phone_number": "+61 410 417 329",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821937"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948871"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948883",
+            "attributes": {
+                "account_center_identifier": 48061293,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 0,
+                "email_address": "patricia.goncalves83@yahoo.com.au",
+                "first_name": "Patricia",
+                "joined_at": "2019-07-09T00:33:15Z",
+                "last_name": "Goncalves",
+                "phone_number": "+61 433 347 678",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3816573"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948883"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948884",
+            "attributes": {
+                "account_center_identifier": 48061417,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "rodrigo_bcosta@hotmail.com",
+                "first_name": "Rodrigo",
+                "joined_at": "2019-07-09T00:33:25Z",
+                "last_name": "Borges",
+                "phone_number": "+61 423 327 667",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821949"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948884"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948885",
+            "attributes": {
+                "account_center_identifier": 53211628,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "mrbenfica_gomes@hotmail.com",
+                "first_name": "Eric",
+                "joined_at": "2019-07-09T00:33:35Z",
+                "last_name": "Gomes",
+                "phone_number": "+61 404 523 254",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821707"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948885"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948886",
+            "attributes": {
+                "account_center_identifier": 48166256,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "b_mateus@hotmail.com",
+                "first_name": "Mateus",
+                "joined_at": "2019-07-09T00:33:47Z",
+                "last_name": "Barbosa",
+                "phone_number": "+61 413 535 332",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821950"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948886"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948888",
+            "attributes": {
+                "account_center_identifier": 48060179,
+                "avatar_url": "https://avatars.planningcenteronline.com/uploads/person/48060179-1549077998/avatar.3.png",
+                "color_identifier": 0,
+                "email_address": "mmbussacarini@gmail.com",
+                "first_name": "Marcelo",
+                "joined_at": "2019-07-09T00:33:57Z",
+                "last_name": "Bussacarini",
+                "phone_number": "+61 415 661 890",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3816518"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948888"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948892",
+            "attributes": {
+                "account_center_identifier": 48060223,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 0,
+                "email_address": "marina_barb@live.com",
+                "first_name": "Marina",
+                "joined_at": "2019-07-09T00:34:15Z",
+                "last_name": "Bittencourt",
+                "phone_number": "+61 413 535 337",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821697"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948892"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948897",
+            "attributes": {
+                "account_center_identifier": 48166280,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "japereira2000@yahoo.com.au",
+                "first_name": "Jose",
+                "joined_at": "2019-07-09T00:34:59Z",
+                "last_name": "Aldonio",
+                "phone_number": "+61 405 194 831",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3816903"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948897"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948899",
+            "attributes": {
+                "account_center_identifier": 48201277,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "heidemann23@hotmail.com",
+                "first_name": "Marcelo",
+                "joined_at": "2019-07-09T00:35:19Z",
+                "last_name": "Heidemann",
+                "phone_number": "+61 404 183 004",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821959"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948899"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6948903",
+            "attributes": {
+                "account_center_identifier": 48201460,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 0,
+                "email_address": "rogeriomarquesadv@hotmail.com",
+                "first_name": "Rogerio",
+                "joined_at": "2019-07-09T00:35:53Z",
+                "last_name": "Marques de Souza",
+                "phone_number": "+61 424 723 022",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797223"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821962"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797223/memberships/6948903"
+            }
+        }
+    ],
+    "797233": [
+        {
+            "type": "Membership",
+            "id": "6939005",
+            "attributes": {
+                "account_center_identifier": 48677723,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 1,
+                "email_address": "Victor.blnovaes@gmail.com",
+                "first_name": "Victor",
+                "joined_at": "2019-07-08T03:57:12Z",
+                "last_name": "Novaes",
+                "phone_number": "+61 405 016 976",
+                "role": "leader"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797233"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3816523"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797233/memberships/6939005"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6939019",
+            "attributes": {
+                "account_center_identifier": 48060179,
+                "avatar_url": "https://avatars.planningcenteronline.com/uploads/person/48060179-1549077998/avatar.3.png",
+                "color_identifier": 1,
+                "email_address": "mmbussacarini@gmail.com",
+                "first_name": "Marcelo",
+                "joined_at": "2019-07-08T04:02:46Z",
+                "last_name": "Bussacarini",
+                "phone_number": "+61 415 661 890",
+                "role": "leader"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797233"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3816518"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797233/memberships/6939019"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "6971805",
+            "attributes": {
+                "account_center_identifier": 59106618,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 1,
+                "email_address": "daniellemarques15@gmail.com",
+                "first_name": "Danielle",
+                "joined_at": "2019-07-11T04:22:20Z",
+                "last_name": "Novaes",
+                "phone_number": "+61 449 704 396",
+                "role": "leader"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797233"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "4117498"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797233/memberships/6971805"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "7247035",
+            "attributes": {
+                "account_center_identifier": 48677715,
+                "avatar_url": "https://avatars.planningcenteronline.com/uploads/person/48677715-1550551391/avatar.1.png",
+                "color_identifier": 1,
+                "email_address": "lucanobre@yahoo.com.br",
+                "first_name": "Luma",
+                "joined_at": "2019-08-09T08:57:43Z",
+                "last_name": "Sampaio",
+                "phone_number": "+61 431 778 057",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797233"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3833259"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797233/memberships/7247035"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "7775237",
+            "attributes": {
+                "account_center_identifier": 48061378,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_woman_gray.png",
+                "color_identifier": 1,
+                "email_address": "Nrkveneziani@outlook.com",
+                "first_name": "Natalia",
+                "joined_at": "2019-08-30T11:08:50Z",
+                "last_name": "Koch",
+                "phone_number": "+61 423 075 658",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797233"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "3821350"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797233/memberships/7775237"
+            }
+        },
+        {
+            "type": "Membership",
+            "id": "7775238",
+            "attributes": {
+                "account_center_identifier": 48061331,
+                "avatar_url": "https://people.planningcenteronline.com/static/no_photo_thumbnail_man_gray.png",
+                "color_identifier": 1,
+                "email_address": "gustavo.veneziani@outlook.com",
+                "first_name": "Luiz Gustavo",
+                "joined_at": "2019-08-30T11:09:03Z",
+                "last_name": "Veneziani",
+                "phone_number": "+61 438 718 231",
+                "role": "member"
+            },
+            "relationships": {
+                "group": {
+                    "data": {
+                        "type": "Group",
+                        "id": "797233"
+                    }
+                },
+                "person": {
+                    "data": {
+                        "type": "Person",
+                        "id": "4184474"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/groups/v2/groups/797233/memberships/7775238"
+            }
+        }
+    ]
+}

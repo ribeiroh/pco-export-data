@@ -8,7 +8,7 @@ class groups:
   def __init__(self, grpId):
     self.groupId = grpId
   def getAll(self):
-    return api().get('%s?per_page=100' % (self.groupUrl))
+    return api().get('%s?per_page=3' % (self.groupUrl))
   def getDetails(self):
     resp = api().get('%s/%s' % (self.groupUrl, self.groupId))
     self.locationUrl = resp["data"]["links"]["location"]

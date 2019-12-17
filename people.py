@@ -10,7 +10,16 @@ class people:
   def __init__(self, peepId):
     self.peopleId = peepId
   def getAll(self):
-    return api().get('%s?include=addresses,marital_status&per_page=100' % (self.peopleUrl))
+    allPeople = {}
+    while True:
+      resp = api().get('%s?include=addresses,marital_status&per_page=100' % (self.peopleUrl))
+      allPeople.setdefault("data",[]).extend(resp["data"])
+      allPeople.setdefault("included",[]).extend(resp["included"])
+      if "next" in resp["links"]:
+        self.peopleUrl = resp["links"]["next"]
+      else:
+        break
+    return allPeople
   def getPerson(self):
     resp = api().get('%s/%s' % (self.peopleUrl, self.peopleId))
     self.maritalUrl = resp["data"]["links"]["marital_status"]

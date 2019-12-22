@@ -52,7 +52,7 @@ for group in groupsById:
   #temp_groupMembership
   currentGroupMembers = groupObj.getMembers()
   temp_groupMembership[group] = currentGroupMembers["data"]
-
+print(temp_groupMembership)
 for group, members in temp_groupMembership.items():
   for member in members:
     peopleToGroups.setdefault(str(member["attributes"]["account_center_identifier"]),[]).append(group)
@@ -62,16 +62,15 @@ for person in peopleById:
   peopleToGroups.setdefault(person,[None])
 del temp_groupMembership
 ## we're done building local dictionaries
-
+print(peopleToGroups)
 outputFile = open("allMembersExport.csv", "w+")
 # add new columns to csvHeader AND update the number of columns in csvPlaceholder
 csvHeader = "First Name, Last Name, Gender, Birthdate, City, State, Zip, Location Long, Location Lat, Distance to Group, Marital Status, Membership, Status, Person Record Updated, Person Record Created, Joined Group At, Role, Group, Group Location, Group Long, Group Lat\r\n"
 csvPlaceholder = ("\"%s\"," * 21) + "\r\n"
 outputFile.write(csvHeader)
-print(peopleToGroups)
+
 # go through every person in the list and output one line per group on the CSV file.
 for person, groups in peopleToGroups.items():
-  print(f"here I see this person {person} and these groups {groups}")
   if len(peopleById[person]["addresses"]) > 0:
     for includedItem in peopleById[person]["addresses"]:
       if includedItem["primary"] == True:
@@ -79,12 +78,9 @@ for person, groups in peopleToGroups.items():
         address["city"] = includedItem["city"] if includedItem["city"] != None else ""
         address["state"] = includedItem["state"] if includedItem["state"] != None else ""
         address["zip"] = includedItem["zip"] if includedItem["zip"] != None else ""
-        print(f"about to get address of {person}: {address}")
         mapApi = maps(f"{address['city']} {address['state']} {address['zip']}")
         mapLocation = mapApi.getLocation()
-        print(f"got this: {mapLocation}")
   for group in groups:
-    print(f"we're now processing {group}")
     if group is None:
       groupName = ""
       groupAddress = ""
@@ -122,8 +118,10 @@ for person, groups in peopleToGroups.items():
       peopleById[person]["status"],
       peopleById[person]["updated_at"],
       peopleById[person]["created_at"],
+      
       member["attributes"]["joined_at"],
       member["attributes"]["role"],
+      
       groupName,
       groupAddress,
       groupLong,

@@ -3,6 +3,7 @@ from groups import groups
 from maps import maps
 import config
 from geopy import distance
+import json
 
 ##fetch full data from PCO in different places and build dictionaries indexed by ID
 #build people data indexed by Id with marital statuses and addresses
@@ -52,7 +53,6 @@ for group in groupsById:
   #temp_groupMembership
   currentGroupMembers = groupObj.getMembers()
   temp_groupMembership[group] = currentGroupMembers["data"]
-print(temp_groupMembership)
 for group, members in temp_groupMembership.items():
   for member in members:
     peopleToGroups.setdefault(str(member["attributes"]["account_center_identifier"]),[]).append(group)
@@ -62,7 +62,14 @@ for person in peopleById:
   peopleToGroups.setdefault(person,[None])
 del temp_groupMembership
 ## we're done building local dictionaries
-print(peopleToGroups)
+
+testFile = open("test.json", "w+")
+testFile.write(json.dumps(peopleById))
+testFile.write(json.dumps(groupsById))
+testFile.write(json.dumps(peopleToGroups))
+testFile.write(json.dumps(locationsById))
+#raise
+
 outputFile = open("allMembersExport.csv", "w+")
 # add new columns to csvHeader AND update the number of columns in csvPlaceholder
 csvHeader = "First Name, Last Name, Gender, Birthdate, City, State, Zip, Location Long, Location Lat, Distance to Group, Marital Status, Membership, Status, Person Record Updated, Person Record Created, Joined Group At, Role, Group, Group Location, Group Long, Group Lat\r\n"
@@ -71,15 +78,19 @@ outputFile.write(csvHeader)
 
 # go through every person in the list and output one line per group on the CSV file.
 for person, groups in peopleToGroups.items():
+  address = {}
   if len(peopleById[person]["addresses"]) > 0:
     for includedItem in peopleById[person]["addresses"]:
-      if includedItem["primary"] == True:
-        address = {}
+      if includedItem["primary"] == True:        
         address["city"] = includedItem["city"] if includedItem["city"] != None else ""
         address["state"] = includedItem["state"] if includedItem["state"] != None else ""
         address["zip"] = includedItem["zip"] if includedItem["zip"] != None else ""
         mapApi = maps(f"{address['city']} {address['state']} {address['zip']}")
         mapLocation = mapApi.getLocation()
+  else:
+    address["city"] = ""
+    address["state"] = ""
+    address["zip"] = ""
   for group in groups:
     if group is None:
       groupName = ""
